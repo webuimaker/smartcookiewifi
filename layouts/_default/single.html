@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+<div class="container">
+{{ partial "nav.html" . }}
+	<!--<h1>{{ .Title }}</h1>  -->
+	<article>
+  {{ .Content }}
+  </article>
+ {{ partial "subscribe.html" . }}
+</div>
+  
+{{ partial "footer.html" . }}
+
+

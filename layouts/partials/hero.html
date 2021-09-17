@@ -1,0 +1,16 @@
+<section class="home-promo">
+    <div class="container">
+        <div class="home-promo__wrap">
+            <div class="home-promo__info">                
+                {{if .Params.hero.subTitle}} <h2 class="home-promo__subtitle">{{.Params.hero.subTitle}}</h2> {{end}}
+                <h1 class="home-promo__title">{{.Params.hero.title}}</h1>
+                <p class="home-promo__text">{{.Params.hero.text}}                    </p>
+                <a class="home-promo__btn common-btn" href="{{.Params.hero.btnUrl}}">{{.Params.hero.btnText}}</a>
+            </div>
+            <picture class="home-promo__picture">
+                <source srcset="{{.Params.hero.imageTab}}" media="(max-width: 992px)"><img src="{{.Params.hero.image}}">
+            </picture>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,111 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = ""
+#hasCJKLanguage = true
+defaultContentLanguage = "en"
+author = "ee"
+# Define the number of posts per page
+paginate = 4
+
+[params.company]
+name = ""
+
+
+[permalinks]
+	page = "/:title/"
+	about = "/:filename/"
+    post = "/blog/:slug"
+
+	
+[Languages]
+[Languages.en]
+title = "Multilingual Hugo Example"
+weight = 0
+languagename = "English"
+languagecode = "en"
+
+[[Languages.en.menu.main]]
+url = "/how-it-works/"
+name = "How it works"
+weight = 1
+[[Languages.en.menu.main]]
+url = "/faq/"
+name = "FAQ"
+weight = 2
+[[Languages.en.menu.main]]
+url = "/contact-us/"
+name = "Contact us"
+weight = 3
+[[Languages.en.menu.main]]
+url = "/career/"
+name = "Career"
+weight = 4
+
+[Languages.fr]
+title = "Multilingual Hugo Example"
+weight = 1
+languagename = "Français"
+languagecode = "fr"
+
+
+[[Languages.fr.menu.main]]
+url = "/fr/how-it-works/"
+name = "Comment ça fonctionne"
+weight = 1
+[[Languages.fr.menu.main]]
+url = "/fr/faq/"
+name = "FAQ"
+weight = 2
+[[Languages.fr.menu.main]]
+url = "/fr/contact-us/"
+name = "Contactez-nous"
+weight = 3
+[[Languages.fr.menu.main]]
+url = "/fr/career/"
+name = "Carrière"
+weight = 4
+
+
+
+[[Languages.en.menu.footer]]
+url = "/colophon/"
+name = "Colophon"
+weight = 1
+
+[[Languages.en.menu.footer]]
+url = "/terms-of-use"
+name = "Terms of Use"
+weight = 2
+
+[[Languages.en.menu.footer]]
+url = "/privacy-policy"
+name = "Privacy Policy"
+weight = 3
+
+[[Languages.fr.menu.footer]]
+url = "/colofon/"
+name = "Colofon"
+weight = 1
+
+[[Languages.fr.menu.footer]]
+url = "/gebruiksvoorwaarden"
+name = "Gebruiksvoorwaarden"
+weight = 2
+
+[[Languages.fr.menu.footer]]
+url = "/privacybeleid"
+name = "Privacybeleid"
+weight = 3
+
+[Languages.en.params.footer]
+   copyright = "SmartCookieWifi. All rights reserved."
+
+[Languages.fr.params.footer]
+   copyright = "SmartCookieWifi. All rights reserved."
+
+[[params.socail]]
+url = ""
+svgcod = ""
+
+

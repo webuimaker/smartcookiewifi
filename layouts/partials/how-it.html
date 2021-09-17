@@ -1,0 +1,24 @@
+<section class="how-it">
+    <div class="container">
+        <h2 class="how-it__title">{{.Params.how.title}}</h2>
+        <div class="how-it__wrap">
+            <div class="how-it__imgs">
+                <div class="how-imgs">
+                    {{range $index, $value := .Params.how.images}}
+                        <img class="how-it__img {{if eq $index 0}} is-active {{end}}" src="{{.image}}">
+                    {{end}}
+
+                </div>
+            </div>
+            <div class="how-it__descr" id="el">
+                {{range $index, $value := .Params.how.descriptions}}
+                    <p class="how-it__text">{{.desc}}</p>
+
+                {{end}}
+
+               
+            </div>
+        </div>
+    </div>
+</section>
+
