@@ -1,7 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme = ""
 #hasCJKLanguage = true
 defaultContentLanguage = "en"
 author = "ee"
