@@ -1,5 +1,5 @@
 ---
-title: faq
+title: How it works
 date: '2014-02-27T14:45:07'
 pageClass: how-works
 howIt:
